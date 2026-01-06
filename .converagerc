@@ -1,0 +1,17 @@
+# ==========================================
+# File: .coveragerc
+# ==========================================
+[run]
+source = exercises
+omit = 
+    */tests/*
+    */venv/*
+    */__pycache__/*
+
+[report]
+precision = 2
+show_missing = True
+skip_covered = False
+
+[html]
+directory = htmlcov

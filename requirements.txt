@@ -1,0 +1,11 @@
+# ==========================================
+# File: requirements.txt
+# ==========================================
+# Testing dependencies
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: for better test output
+pytest-sugar>=0.9.7
+pytest-html>=3.2.0
+
